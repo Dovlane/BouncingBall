@@ -167,7 +167,9 @@ namespace BouncingBall
             return false;
         }
 
-        public void ReactionTo_Form1_MouseClick(MouseEventArgs e)
+        //returns true if new ball is created
+
+        public bool ReactionTo_Form1_MouseClick(MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -187,7 +189,10 @@ namespace BouncingBall
                     minDistanceOfAllBalls = Math.Min(minDistanceOfAllBalls, distanceOfBall);
                 }
                 if (!ball_Chosen && minDistanceOfAllBalls >= Ball.Radius * 2)
+                {
                     this.Add(e.X, e.Y);
+                    return true;
+                }
             }
             else if (e.Button == MouseButtons.Right)
             {
@@ -206,7 +211,7 @@ namespace BouncingBall
                     }
                 }
             }
-            
+            return false;
         }
     }
 }

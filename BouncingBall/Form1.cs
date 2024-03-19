@@ -28,11 +28,13 @@ namespace BouncingBall
             Refresh();
         }
 
+        int numBalls = 0;
         private void Form1_Load(object sender, EventArgs e)
         {
             Ball.bordersOfForm(ClientRectangle.Width * 1.0, ClientRectangle.Height * 1.0);
             Ball.timeTickChanged(timer1.Interval);
             balls = new ListBall();
+            labelBrojLoptica.Text = "Number of balls: 0";
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -74,8 +76,10 @@ namespace BouncingBall
 
         private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
-            balls.ReactionTo_Form1_MouseClick(e);
-            labelBrojLoptica.Text = "Broj loptica: " + balls.NumberOfBalls;
+            bool newBall = balls.ReactionTo_Form1_MouseClick(e);
+            if (newBall)
+                numBalls++;
+            labelBrojLoptica.Text = "Number of balls: " + numBalls;
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)

@@ -29,3 +29,14 @@ D:\Desktop\Programiranje\TrenutniProgrami\Moji\FizikaZezanje\BouncingBall\Bounci
 D:\Desktop\Programiranje\TrenutniProgrami\Moji\FizikaZezanje\BouncingBall\BouncingBall\obj\Debug\BouncingBall.csproj.CoreCompileInputs.cache
 D:\Desktop\Programiranje\TrenutniProgrami\Moji\FizikaZezanje\BouncingBall\BouncingBall\obj\Debug\BouncingBall.exe
 D:\Desktop\Programiranje\TrenutniProgrami\Moji\FizikaZezanje\BouncingBall\BouncingBall\obj\Debug\BouncingBall.pdb
+D:\Desktop\Github\BouncingBall\BouncingBall\bin\Debug\BouncingBall.exe.config
+D:\Desktop\Github\BouncingBall\BouncingBall\bin\Debug\BouncingBall.exe
+D:\Desktop\Github\BouncingBall\BouncingBall\bin\Debug\BouncingBall.pdb
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.csproj.AssemblyReference.cache
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.Form1.resources
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.Properties.Resources.resources
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.csproj.GenerateResource.cache
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.csproj.CoreCompileInputs.cache
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.exe
+D:\Desktop\Github\BouncingBall\BouncingBall\obj\Debug\BouncingBall.pdb
